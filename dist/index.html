@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudam Shrestha</title>
+    <link href="../src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="/dist/main.css">
+</head>
+
+<body class="relative main">
+    <div class="container">
+
+        <!-- navbar starts -->
+        <div class="z-50 w-full h-24 bg-[#f2f2f2] sticky top-0">
+            <nav class="py-5">
+                <div class="flex justify-between items-center">
+                    <!-- Logo and Name -->
+                    <div class="flex items-center gap-2">
+                        <a class="flex gap-2 items-center justify-center" href="./index.html">
+                            <img width="80" src="../images/logo.png" alt="Sudam Shrestha">
+                            <h1 class="mainfont text-lg md:text-xl">Sudam Shrestha</h1>
+                        </a>
+                    </div>
+
+                    <div class="hidden md:flex gap-20">
+                        <a class="poppins font-semibold" href="./index.html">Home</a>
+                        <a class="poppins font-semibold" href="./about.html">About</a>
+                        <a class="poppins font-semibold" href="./skill.html">Skills</a>
+                        <a class="poppins font-semibold" href="./project.html">Projects</a>
+                        <a class="poppins font-semibold" href="./contact.html">Contacts</a>
+                    </div>
+
+                    <button id="menu-toggle" class="md:hidden text-2xl">
+                        <span>&#9776;</span>
+                    </button>
+                </div>
+
+                <!-- Drawer Menu for Mobile -->
+                <div id="drawer-menu"
+                    class="fixed top-0 left-0 h-full w-[250px] bg-[#F9FAFB] shadow-2xl transform -translate-x-full transition-transform duration-300 ease-in-out z-[9999]">
+                    <div class="flex justify-between items-center p-5">
+                        <h2 class="text-xl font-bold">Menu</h2>
+                        <button id="close-menu" class="text-2xl">
+                            &times;
+                        </button>
+                    </div>
+                    <div class="flex flex-col items-start gap-4 pl-5 mt-5">
+                        <a class="poppins font-semibold""
+                            href=" ./index.html">Home</a>
+                        <a class="poppins font-semibold" href="./about.html">About</a>
+                        <a class="poppins font-semibold" href="./skill.html">Skills</a>
+                        <a class="poppins font-semibold" href="./project.html">Projects</a>
+                        <a class="poppins font-semibold" href="./contact.html">Contacts</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- navbar ends -->
+
+        <div>
+            <div class="grid grid-cols-12 gap-4 py-10">
+                <!-- side pannel -->
+                <div
+                    class="hidden lg:block rounded-2xl hover:shadow-2xl col-span-3 h-[450px] bg-[#F9FAFB] fixed w-[300px]">
+                    <div class="relative">
+                        <img width="180" class="absolute left-[19%] -top-44 rounded-lg shadow-2xl"
+                            src="../images/hero.jpg" alt="Sudam Shrestha">
+                        <h1 class="mt-[150px] text-center mainfont text-2xl">Sudam Shrestha</h1>
+                        <p class="text-center font-sans font-extralight text-sm text-black">FullStack Developer</p>
+                        <div class="flex gap-4 pt-4 pl-16">
+                            <a target="_blank" href="">
+                                <img src="../images/facebook.svg" width="25" alt="Facebook">
+                            </a>
+                            <a target="_blank" href="">
+                                <img src="../images/whatsapp.svg" width="25" alt="Whatsapp">
+                            </a>
+                            <a target="_blank" href="">
+                                <img src="../images/github.svg" width="25" alt="Github">
+                            </a>
+                            <a target="_blank" href="">
+                                <img src="../images/linkedin.svg" width="25" alt="Linkedin">
+                            </a>
+                        </div>
+
+                        <div class="pt-5 pl-8">
+                            <div class="flex items-center gap-2 py-2">
+                                <div class="flex items-center gap-2">
+                                    <img width="18" class="text-white" src="../images/phone.svg" alt="Phone">
+                                    <div>
+                                        <p class="text-xs text-gray-400">Phone</p>
+                                        <p class="font-semibold text-md">9704508525 </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-2">
+                                <div class="flex items-center gap-2">
+                                    <img width="18" class="text-white" src="../images/envelope.svg" alt="Phone">
+                                    <div>
+                                        <p class="text-xs text-gray-400">Email</p>
+                                        <p class="font-semibold w-1/2 text-md">sudamshrestha939@gmail</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-2 py-2">
+                                <div class="flex items-center gap-2">
+                                    <img width="18" class="text-white" src="../images/location.svg" alt="Phone">
+                                    <div>
+                                        <p class="text-xs text-gray-400">Location</p>
+                                        <p class="font-semibold text-md">Dharan, Nepal </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="lg:pl-[400px] -mt-[70px]">
+                <h1
+                    class="sansista slight-slant sm:text-3xl md:text-4xl lg:text-5xl sm:font-bold md:font-bold font-extrabold">
+                    Hello!</h1>
+                <h1
+                    class="sansista slight-slant sm:text-3xl md:text-4xl lg:text-5xl sm:font-bold md:font-bold font-extrabold">
+                    It’s me <span class="text-[#FFA901]">Sudam Shrestha</span></h1>
+                <h1
+                    class="pt-6 sansista slight-slant sm:text-xl md:text-2xl lg:text-3xl sm:font-bold md:font-bold font-extrabold text-[#FFA901]">
+                    <span class="text-black">— </span>Full Stack developer
+                </h1>
+
+
+                <p class="font-sans text-gray-950 text-lg pt-7">
+                    My passion lies in crafting seamless digital experiences using the Laravel framework. With a
+                    deep-rooted expertise in Laravel and a keen eye for detail, I thrive on building robust, efficient,
+                    and user-friendly web applications. My journey in the realm of development is driven by the desire
+                    to innovate and elevate user experiences. Let's create something amazing together!
+                </p>
+
+
+                <div class="grid grid-cols-12 pt-7">
+                    <div class="col-span-12 md:col-span-4">
+                        <h3 class="text-2xl text-gray-400">Experience:</h3>
+                        <h1 class="text-2xl font-sans font-semibold">5+ Years</h1>
+                    </div>
+
+                    <div class="col-span-12 md:col-span-4">
+                        <h3 class="text-2xl text-gray-400">Age:</h3>
+                        <h1 class="text-2xl font-sans font-semibold">24 Years</h1>
+                    </div>
+
+                    <div class="col-span-12 md:col-span-4">
+                        <h3 class="text-2xl text-gray-400">Projects:</h3>
+                        <h1 class="text-2xl font-sans font-semibold">11+</h1>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-12 py-10">
+                    <div class="col-span-12 md:col-span-12 py-5 md:py-5 lg:col-span-12 xl:col-span-6">
+                        <a target="_blank" class="text-xl rounded-2xl px-12 md:px-18 lg:px-24 py-2 font-semibold bg-[#ffa901]"
+                            href="https://sudam.codeitapps.com/storage/m1bAotyNcxrlrXsaBodfJMO8239R6n-metabXkgY3YucGRm-.pdf">
+                            Download CV</a>
+                    </div>
+    
+                    <div class="col-span-12 md:col-span-12 py-5 md:py-5 lg:col-span-12 xl:col-span-6">
+                        <a class="text-xl rounded-2xl px-12 md:px-18 lg:px-24 py-2 font-semibold bg-[#ffa901]"
+                            href="./about.html">
+                            Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
